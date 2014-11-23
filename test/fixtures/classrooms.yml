@@ -3,13 +3,11 @@
 one:
   size: 
   timezone: MyString
-  duration: 2014-11-22
   subject: MyString
-  year: 
+  grade: 
 
 two:
   size: 
   timezone: MyString
-  duration: 2014-11-22
   subject: MyString
-  year: 
+  grade: 

@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Size:</strong>
+  <%= @classroom.size %>
+</p>
+
+<p>
+  <strong>Timezone:</strong>
+  <%= @classroom.timezone %>
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  <%= @classroom.subject %>
+</p>
+
+<p>
+  <strong>Grade:</strong>
+  <%= @classroom.grade %>
+</p>
+
+<%= link_to 'Edit', edit_classroom_path(@classroom) %> |
+<%= link_to 'Back', classrooms_path %>

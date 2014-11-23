@@ -46,6 +46,10 @@ group :development do
     gem 'sunspot_solr'
 end
 
+gem 'capybara'
+
+gem 'devise'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
