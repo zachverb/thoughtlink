@@ -149,8 +149,6 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
-    sprockets_better_errors (0.0.4)
-      sprockets-rails (>= 1.0.0)
     sunspot (2.1.1)
       pr_geohash (~> 1.0)
       rsolr (~> 1.0.7)
@@ -200,7 +198,6 @@ DEPENDENCIES
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spring
-  sprockets_better_errors
   sunspot_rails
   sunspot_solr
   turbolinks
