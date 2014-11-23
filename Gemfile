@@ -40,6 +40,12 @@ gem 'rails_12factor', group: :production
 
 ruby '2.1.2'
 
+gem 'sunspot_rails'
+ 
+group :development do
+    gem 'sunspot_solr'
+end
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

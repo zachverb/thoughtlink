@@ -1,11 +1,11 @@
 class CreateClassrooms < ActiveRecord::Migration
   def change
     create_table :classrooms do |t|
-      t.int :size
+      t.integer :size
       t.string :timezone
       t.date :duration
       t.string :subject
-      t.int :year
+      t.integer :year
 
       t.timestamps
     end
