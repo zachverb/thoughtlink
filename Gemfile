@@ -36,6 +36,8 @@ gem 'aws-sdk', '2.0.0.pre'
 # Use unicorn as the app server
 gem 'unicorn'
 
+ruby '2.0.0'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
