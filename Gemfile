@@ -46,9 +46,18 @@ group :development do
     gem 'sunspot_solr'
 end
 
+# for testing
 gem 'capybara'
 
+
+# users (optional)
 gem 'devise'
+
+# bootstrap and styles
+gem 'bootstrap-sass', :git => 'https://github.com/twbs/bootstrap-sass.git', :branch => 'next'
+gem 'autoprefixer-rails'
+
+gem 'sprockets_better_errors'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

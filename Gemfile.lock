@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/twbs/bootstrap-sass.git
+  revision: d956caf3b6c141303c7ca93f693bf3393af7c839
+  branch: next
+  specs:
+    bootstrap-sass (3.3.1.0)
+      sass (~> 3.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -28,6 +36,8 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
+    autoprefixer-rails (4.0.1)
+      execjs
     aws-sdk (2.0.0.pre)
       aws-sdk-resources (= 2.0.0.pre)
     aws-sdk-core (2.0.0)
@@ -139,6 +149,8 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
+    sprockets_better_errors (0.0.4)
+      sprockets-rails (>= 1.0.0)
     sunspot (2.1.1)
       pr_geohash (~> 1.0)
       rsolr (~> 1.0.7)
@@ -173,8 +185,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  autoprefixer-rails
   aws-sdk (= 2.0.0.pre)
   aws-sdk-v1
+  bootstrap-sass!
   capybara
   coffee-rails (~> 4.0.0)
   devise
@@ -186,6 +200,7 @@ DEPENDENCIES
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spring
+  sprockets_better_errors
   sunspot_rails
   sunspot_solr
   turbolinks

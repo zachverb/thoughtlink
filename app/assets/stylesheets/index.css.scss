@@ -1,0 +1,53 @@
+body {
+	padding:0px;
+	margin:0px;
+}
+
+#header {
+	height:100px;
+	width:100%;
+	border-bottom: 1px solid grey;
+	padding: 20px 50px 0px 50px; 
+}
+
+#search {
+	text-align:center
+}
+
+#main {
+	width:80%;
+	margin:auto;
+	border:1px solid grey;
+}
+
+form {
+	width:500px;
+	height:30px;
+	margin:50px auto;
+}
+
+.search {
+	height:30px;
+	border:0px solid #dbdbdb;
+}
+
+.button {
+	position:relative;
+	padding:6px 15px;
+	left:-8px;
+	height:30px;
+	width:30px;
+	border:2px solid #207cca;
+	background: url("search.png") no-repeat;
+	background-position: center;
+	background-color:#207cca;
+	color:#fafafa;
+}
+
+.logo {
+	float:left;
+	height:65px;
+	width:140px;
+	background: url("logo.png") no-repeat
+	background-position:center
+}
