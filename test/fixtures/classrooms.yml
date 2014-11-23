@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  size: 
+  timezone: MyString
+  duration: 2014-11-22
+  subject: MyString
+  year: 
+
+two:
+  size: 
+  timezone: MyString
+  duration: 2014-11-22
+  subject: MyString
+  year: 
