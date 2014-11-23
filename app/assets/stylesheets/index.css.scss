@@ -29,13 +29,17 @@ form {
 
 #results {
     float: left;
+    width:50%;
     padding:20px 0px 0px 50px;
     p {
        font-family:proxima_novalight !important;
     }
     
 
-    .classroom {   
+    .classroom { 
+        width:100%;
+        float:left;
+        margin-bottom:50px;
         .classPic {
             height:145px;
             width:145px;
